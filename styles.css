@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+ /**{
+    padding: 0;
+    margin: 0;
+ }*/
+
+body {
+    background-color: #000000;
+    color: #8B008B;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Rubik Dirt', sans-serif;
+}
+  
+
+a{
+    color:dodgerblue; 
+    text-decoration: none;
+} 
+
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:red;
+}
+
+a:visited{
+color:darkorange;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 50%;     
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+    
+    }
+
+    .info{
+    margin-bottom: 20px;
+    display: flex;
+    }
+
+    @media (max-width: 700px) {
+.info{
+    text-align: center;
+    display: block;
+}
+
+    }
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text{
+    margin-bottom: 10px;
+}
+
+    .info p {
+        color: pink;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: none;
+        /*text-transform: ;*/
+        /*letter-spacing: 5px;*/
+        /*word-spacing: 42px;*/
+    }
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+/*.social {*/
+     /*background-color: #000000;*/
+    /*padding: 15px;*/
+    /*padding: 5px 40px;
+    margin: 20px;
+    
+    border: 5px solid pink;
+    border-bottom-style: double;
+    border-top-width: 15px;
+    /*border-right-color: blue*/
+   /*}    */
+
+/*.box-model > div {
+    float: left;
+    background: purple;
+    height: 200px;
+    border: 4px solid black;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-darkorange{
+    background-color:darkorange;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+
+.bg-red{
+    background-color: red;
+}
+
+
+
+.card {
+    padding: 15px 20px;
+    background-color: red;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    color:black;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+  color: black;
+}
+
+.link-list{
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+margin-bottom: 10px;
+padding-bottom: 5px;
+border-bottom: 1px solid black;
+}
+
+.contact{
+    text-align: center;
+}
+
+.form-group label{
+ display: block;
+ font-size: 14px;
+ color: purple;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    color: #8B008B;
+    border-bottom: 1px solid black;
+    padding: 15px 0 10px;
+    /*outline: none;*/
+    font-family: inherit;
+}
+
+.row{
+    /*display: flex;*/
+    margin-bottom: 20 px;
+}    
+
+/*.row{
+    width: 50%;
+    margin-right: 20px;
+}*/
+
+.btn{
+    color: black;
+    background-color: purple;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor:pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*.position{
+position: relative;
+    border: 4px solid red;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+}*/
+
+/*.box{
+    position: fixed;
+    top: 0;
+    left: 0px; 
+   border-radius: 50%;
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+}*/
